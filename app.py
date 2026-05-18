@@ -8,6 +8,10 @@ car_data = pd.read_csv(
 
 st.header('Análisis de datos de vehículos en Estados Unidos')
 
+df_checkbox = st.checkbox('Mostrar Tabla de datos')
+if df_checkbox:
+    st.write(car_data)
+
 # Crear un botón en la aplicación Streamlit
 hist_button = st.button('Construir histograma')
 
