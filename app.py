@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 car_data = pd.read_csv(
-    'C:\\Users\\melhe\\GitHub_repos\\proyecto_7_MP\\vehicles_us.csv')
+    'vehicles_us.csv')
 
 st.header('Análisis de datos de vehículos en Estados Unidos')
 
